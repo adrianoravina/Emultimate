@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.ravin.emultimate.MainActivity">
+
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_usuario"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:textColorHint="#ffffff"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/etUsuario"
+        android:layout_alignStart="@+id/etUsuario"
+        android:layout_below="@+id/etUsuario"
+        android:layout_marginTop="102dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff"
+        android:textSize="16dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvLogin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:onClick="login"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        android:elevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textColor="#fff"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/etPassword"
+        android:layout_marginBottom="49dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:text="Registrate"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>

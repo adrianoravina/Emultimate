@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNumJuegos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Num Juegos"/>
+
+        <TextView
+            android:id="@+id/tvTiempoJugando"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Num Juegos"/>
+
+        <TextView
+            android:id="@+id/tvJuegoMasJugado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Num Juegos"/>
+
+        <TextView
+            android:id="@+id/tvTopFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Num Juegos"/>
+
+        <TextView
+            android:id="@+id/tvJuegosCompletados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Num Juegos"/>
+
+        <TextView
+            android:id="@+id/tvEmuladorFavorito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Num Juegos"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
